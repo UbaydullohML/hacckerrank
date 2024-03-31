@@ -7,7 +7,7 @@ import sys
 
 # Complete the solve function below.
 def solve(s):
-    s = s.split()
+    s = s.split(' ')
     cap = []
     for i in s:
         cap.append(i.capitalize())
